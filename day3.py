@@ -20,7 +20,6 @@ def hasNext():
     global i
     global data
 
-    print(f"{len(data)} {i}")
     return len(data)-1>i
 
 def handleMul():
